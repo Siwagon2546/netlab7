@@ -20,7 +20,7 @@ string func2(string x){
 		y += toupper(x[i]);
 		i++;
 	}
-	return y;	
+	return y;	 
 }
 
 string func3(string x){
@@ -36,7 +36,8 @@ string func3(string x){
 string Text1,Text2,Text3,Text4;
 
 int main(){
-    cout << "Input text: ";
+    
+	cout << "Input text: ";
 	cin >>Text1;
 	Text2 = func3(Text1);
 	Text3 = func1(Text2);
