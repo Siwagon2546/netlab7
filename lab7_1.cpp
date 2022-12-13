@@ -29,7 +29,7 @@ string func3(string x){
 	while(i < L){
 		y += tolower(x[i]);
 		i++;
-	}
+	}	
 	return y;	
 }
 
@@ -47,11 +47,11 @@ int main(){
     cout << "Palindrome: ";
 	if(Text2 == Text3)
 	{
-		cout<<"Yes";
+		cout<<"Yes"<<"\n";
 	}
 	else
 	{
-		cout<<"NO";
+		cout<<"No"<<"\n";
 	}
 
     return 0;
